@@ -9,6 +9,7 @@ const Tailwind = () => {
             <h4 className="text-5xl">Hello Tailwind</h4>
             <h5 className="text-6xl">Hello Tailwind</h5>
             <h6 className="text-7xl">Hello Tailwind</h6>
+            <p>Peaky-Blinders -- Thomas -- Aruthur -- John -- Fin -- Ada -- Ferry </p>
         </>
     )
 }
