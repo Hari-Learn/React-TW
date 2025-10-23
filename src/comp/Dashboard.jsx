@@ -1,4 +1,5 @@
 
+import LogIn from "./Login";
 const Dashboard = () => {
     const isLoggedIn = true;
     return(
@@ -9,7 +10,7 @@ const Dashboard = () => {
 
             {isLoggedIn && (
                 <>
-                <h2>Please Log In</h2>
+                <LogIn></LogIn>
                 </>
                 )
             }
