@@ -1,5 +1,6 @@
 import './App.css'
 import Dashboard from './comp/Dashboard.jsx'
+import ListGroup from './comp/ListGroup.jsx'
 import NavBar from './comp/NavBar.jsx'
 import Tab from './comp/Tab.jsx'
 import Tailwind from './Tailwind.jsx'
@@ -12,9 +13,9 @@ function App() {
       <Tailwind></Tailwind>
 
       <Dashboard></Dashboard>
-      <center>
+      <ListGroup></ListGroup>
       <Tab></Tab>
-      </center>
+      
 
     </>
   )
