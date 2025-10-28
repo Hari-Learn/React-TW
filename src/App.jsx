@@ -3,6 +3,7 @@ import Dashboard from './comp/Dashboard.jsx'
 import ListGroup from './comp/ListGroup.jsx'
 import Mark from './comp/Mark.jsx'
 import NavBar from './comp/NavBar.jsx'
+import RoadMap from './comp/RoadMap.jsx'
 import Tab from './comp/Tab.jsx'
 import Tailwind from './Tailwind.jsx'
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
       <Dashboard></Dashboard>
       <ListGroup></ListGroup>
+      <RoadMap></RoadMap>
       <Tab></Tab>
       
 
